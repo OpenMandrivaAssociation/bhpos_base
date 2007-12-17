@@ -9,7 +9,6 @@ Source0:	ftp://bananahead.com/pub/bhpos2/stable/%{name}-%{version}.tar.bz2
 Requires(post): pkgconfig >= 0.15.0
 Requires(preun): pkgconfig >= 0.15.0
 BuildRequires:	pkgconfig >= 0.15.0
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 bhpos_base is the base install stuff for the bhpos system.
