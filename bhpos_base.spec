@@ -1,7 +1,7 @@
 Summary:	BananaPOS base stuff
 Name:		bhpos_base
 Version:	2.0.0
-Release:	%mkrel 0.beta3.1
+Release:	%mkrel 0.beta3.2
 License:	GPL
 Group:		System/Servers
 URL:		http://www.bananahead.com
