@@ -58,3 +58,42 @@ make
 %attr(0644,root,root) %{_libdir}/pkgconfig/*.pc
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 2.0.0-0.beta3.3mdv2011.0
++ Revision: 616749
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 2.0.0-0.beta3.2mdv2010.0
++ Revision: 424611
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 2.0.0-0.beta3.1mdv2008.1
++ Revision: 135828
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Mar 02 2007 Oden Eriksson <oeriksson@mandriva.com> 2.0.0-0.beta3.1mdv2007.0
++ Revision: 131167
+- Import bhpos_base
+
+* Sat Feb 04 2006 Oden Eriksson <oeriksson@mandriva.com> 2.0.0-0.beta3.1mdk
+- 2.0.0 beta3
+
+* Sat Oct 22 2005 Nicolas Lécureuil <neoclust@mandriva.org> 1.2.3-4mdk
+- Fix BuildRequires
+- %%mkrel
+
+* Tue May 10 2005 Oden Eriksson <oeriksson@mandriva.com> 1.2.3-3mdk
+- really fix build on x86_64
+
+* Tue May 10 2005 Oden Eriksson <oeriksson@mandriva.com> 1.2.3-2mdk
+- fix build on x86_64
+
+* Sat Oct 16 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 1.2.3-1mdk
+- initial mandrake package
+
